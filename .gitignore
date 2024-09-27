@@ -1,0 +1,39 @@
+# 빌드 파일 무시
+*.obj
+*.exe
+*.dll
+*.pdb
+*.lib
+*.ilk
+*.idb
+*.pch
+
+# 빌드 디렉터리 무시
+Debug/
+Release/
+
+# Visual Studio 프로젝트 파일 무시
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+*.log
+.vs/
+
+# 특정 폴더 내 파일들 무시
+ipch/
+*.tlog
+*.lastbuildstate
+*.opensdf
+*.sdf
+*.vc.db
+*.cache
+
+# C++ 소스 코드만 허용
+!*.cpp
+!*.h
+!*.hpp
+
+# 폴더는 무시하지 않음
+!*/
